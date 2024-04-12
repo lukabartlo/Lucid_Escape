@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89312b3d76d242248b2950eefe07aa8e, type: 3}
   m_Name: Choice 1
   m_EditorClassIdentifier: 
-  labels: []
+  labels:
+  - text: amongus
+    nextScene: {fileID: 11400000, guid: d0f9edac045afbd4bbe0d76bdef43617, type: 2}
+  - text: fard
+    nextScene: {fileID: 11400000, guid: 720c035ecf174a247b096dcd87728687, type: 2}

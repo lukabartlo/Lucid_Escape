@@ -13,7 +13,7 @@ public class ScChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoi
     private TextMeshProUGUI textMesh;
     private ScChooseController _controller;
 
-    void Start()
+    void Awake()
     {
         textMesh = GetComponent<TextMeshProUGUI>();
         textMesh.color = defaultColor;

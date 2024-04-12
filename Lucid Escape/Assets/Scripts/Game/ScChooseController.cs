@@ -7,6 +7,7 @@ public class ScChooseController : MonoBehaviour
 {
     public ScChooseLabelController label;
     public ScGameManager gameManager;
+    public Vector2 sizeDelta;
 
     private RectTransform _rectTransform;
     private Animator _animator;
@@ -33,6 +34,9 @@ public class ScChooseController : MonoBehaviour
 
             newLabel.Setup(scene.labels[index], this, CalculateLabelPosition(index, scene.labels.Count));
         }
+        Vector2 size = _rectTransform.sizeDelta;
+        size.y = (scene.labels.Count + 2) * _labelHeight;
+        _rectTransform.sizeDelta = size;
     }
 
     public void PerformChoose(ScStoryScene scene)
