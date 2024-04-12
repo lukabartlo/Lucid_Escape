@@ -9,8 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668ff5b0000c09f4d9e85aa8fb85739e, type: 3}
-  m_Name: George
+  m_Script: {fileID: 11500000, guid: 89312b3d76d242248b2950eefe07aa8e, type: 3}
+  m_Name: Choice4
   m_EditorClassIdentifier: 
-  characterName: George
-  textColor: {r: 0, g: 0.6669483, b: 1, a: 1}
+  labels:
+  - text: 
+    nextScene: {fileID: 0}
+  - text: 
+    nextScene: {fileID: 0}

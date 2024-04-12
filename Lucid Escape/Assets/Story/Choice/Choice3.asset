@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89312b3d76d242248b2950eefe07aa8e, type: 3}
-  m_Name: Choice 1
+  m_Name: Choice3
   m_EditorClassIdentifier: 
   labels:
-  - text: Inspect the machine
-    nextScene: {fileID: 11400000, guid: 720c035ecf174a247b096dcd87728687, type: 2}
-  - text: Leave
-    nextScene: {fileID: 11400000, guid: e0d29bf6e9870b14a8ff20c0f25f8f69, type: 2}
+  - text: Go to the village
+    nextScene: {fileID: 11400000, guid: 4801b850f31e61448a1efd52f50f7268, type: 2}
+  - text: Do not go to the village
+    nextScene: {fileID: 11400000, guid: e65efa94c5abdd54dbc4a1d976e6b5a6, type: 2}

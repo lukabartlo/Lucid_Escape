@@ -13,9 +13,18 @@ MonoBehaviour:
   m_Name: 2
   m_EditorClassIdentifier: 
   sentences:
-  - text: ROBLOX CARWASH
-    character: {fileID: 11400000, guid: 7dc6d5e9bc7e6cb4b813f54c352b8e1a, type: 2}
-  - text: LET'S GOOOOOOOOOOOOOOOOOOOOO
+  - text: Upon getting closer you see a button with a warning sign next to it, you
+      can't read it as it is in an unknown language.
     character: {fileID: 11400000, guid: 390a87682420ada4283b638bc22c012c, type: 2}
-  background: {fileID: 21300000, guid: 8e836d87e33b4b54896d36c978cc726c, type: 3}
-  nextScene: {fileID: 0}
+  - text: There is a weird button on the top of the machine. I can't read the sign
+      next to it. What language is this, do you know it ?
+    character: {fileID: 11400000, guid: 7dc6d5e9bc7e6cb4b813f54c352b8e1a, type: 2}
+  - text: No clues, I can't read it either... It is strange indeed. Should we press
+      it?
+    character: {fileID: 11400000, guid: c107852e964c45540b4f3a25ac1c66b8, type: 2}
+  - text: I don't think it's a good idea to go near it.
+    character: {fileID: 11400000, guid: 7dc6d5e9bc7e6cb4b813f54c352b8e1a, type: 2}
+  - text: Aww come on it's probably not even gonna do anything.
+    character: {fileID: 11400000, guid: c107852e964c45540b4f3a25ac1c66b8, type: 2}
+  background: {fileID: 21300000, guid: f3ab23a59dc76ab4b968a1fd32d47ffc, type: 3}
+  nextScene: {fileID: 11400000, guid: 4dc8f0cb33432814999bd55c6e26569c, type: 2}

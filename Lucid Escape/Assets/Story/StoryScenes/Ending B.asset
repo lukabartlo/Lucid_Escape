@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d86bfa1ae5f517744ab51c7c1e81151e, type: 3}
+  m_Name: Ending B
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: You and your friend decided not to go to the village. You stay in a forest
+      trying to scavenge for food but without the knowledge of what is edible and
+      not, you and your friend eat a poisonous fruit killing you both.
+    character: {fileID: 11400000, guid: 390a87682420ada4283b638bc22c012c, type: 2}
+  - text: 'Ending B: Food Poisoning'
+    character: {fileID: 11400000, guid: 390a87682420ada4283b638bc22c012c, type: 2}
+  background: {fileID: 21300000, guid: f3ab23a59dc76ab4b968a1fd32d47ffc, type: 3}
+  nextScene: {fileID: 0}
