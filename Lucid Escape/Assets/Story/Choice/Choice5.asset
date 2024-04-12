@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89312b3d76d242248b2950eefe07aa8e, type: 3}
-  m_Name: Choice4
+  m_Name: Choice5
   m_EditorClassIdentifier: 
   labels:
-  - text: Start living in the village for a few months.
-    nextScene: {fileID: 11400000, guid: 97b991e676fa37b49b78b0d20445ad71, type: 2}
-  - text: Leave the village the next day
-    nextScene: {fileID: 11400000, guid: 1f5664cc03d4fb04f9100b997e0e7149, type: 2}
+  - text: Share the food with him
+    nextScene: {fileID: 11400000, guid: 1008c7855e658e844abaee4eb67fcf36, type: 2}
+  - text: Eat alone
+    nextScene: {fileID: 11400000, guid: 36aec1d1023b7a048a794033a3dacea3, type: 2}
